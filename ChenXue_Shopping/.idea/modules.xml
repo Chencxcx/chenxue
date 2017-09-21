@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ChenXue_Shopping.iml" filepath="$PROJECT_DIR$/ChenXue_Shopping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwipeRefreshlibrary/SwipeRefreshlibrary.iml" filepath="$PROJECT_DIR$/SwipeRefreshlibrary/SwipeRefreshlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recycleviewset/recycleviewset.iml" filepath="$PROJECT_DIR$/recycleviewset/recycleviewset.iml" />
+      <module fileurl="file://$PROJECT_DIR$/time/time.iml" filepath="$PROJECT_DIR$/time/time.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xrecycleview/xrecycleview.iml" filepath="$PROJECT_DIR$/xrecycleview/xrecycleview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxing/zxing.iml" filepath="$PROJECT_DIR$/zxing/zxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxinglite/zxinglite.iml" filepath="$PROJECT_DIR$/zxinglite/zxinglite.iml" />
+    </modules>
+  </component>
+</project>
