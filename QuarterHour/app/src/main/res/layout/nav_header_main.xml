@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y300"
+        android:background="@mipmap/drawerlayout_background"
+        android:orientation="horizontal"
+        >
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/header_pic"
+            android:layout_width="@dimen/x150"
+            android:layout_height="@dimen/y150"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/x50"
+            android:layout_marginTop="@dimen/y50"
+            fresco:roundAsCircle="true"
+            />
+        <TextView
+            android:id="@+id/uname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/x50"
+            android:layout_marginLeft="@dimen/x35"
+            android:textColor="#ffff"
+            android:text="未登录"
+            android:textSize="@dimen/x35"/>
+
+    </LinearLayout>
+
+</LinearLayout>

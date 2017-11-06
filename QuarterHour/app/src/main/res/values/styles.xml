@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 设置activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+
+    <!-- animation 样式 -->
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/translate2</item>
+        <item name="android:activityOpenExitAnimation">@anim/translate</item>
+        <item name="android:activityCloseEnterAnimation">@anim/translate4</item>
+        <item name="android:activityCloseExitAnimation">@anim/translate3</item>
+    </style>
+
+</resources>

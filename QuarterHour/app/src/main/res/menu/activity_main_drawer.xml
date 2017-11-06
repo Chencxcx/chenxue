@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_me"
+            android:title="我的关注"
+            android:icon="@mipmap/raw_1499933216"/>
+        <item
+            android:id="@+id/nav_friend"
+            android:title="我的收藏"
+            android:icon="@mipmap/raw"/>
+        <item
+            android:id="@+id/nav_notification"
+            android:title="搜索好友"
+            android:icon="@mipmap/raw_1499946865"/>
+        <item
+            android:id="@+id/nav_message"
+            android:title="消息通知"
+            android:icon="@mipmap/raw_1499947389"
+            />
+    </group>
+    <group
+        android:checkableBehavior="none"
+        android:id="@+id/night">
+        <item android:id="@+id/nav_night"
+            android:title="夜间模式"/>
+        <item android:id="@+id/nav_mine"
+            android:title="我的作品"/>
+        <item android:id="@+id/nav_setting"
+            android:title="设置"/>
+    </group>
+
+</menu>
